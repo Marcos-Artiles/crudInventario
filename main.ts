@@ -11,7 +11,7 @@ class ConsoleUI {
       console.log("3. Listar Productos");
       console.log("4. Salir\n");
     }
-  //Mostramos el menesaje.
+  //Mostramos el mensaje.
     public static mostrarMensaje(mensaje: string): void {
       console.log(`\n${mensaje}\n`);
     }
