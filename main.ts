@@ -7,7 +7,7 @@ class ConsoleUI {
   // Son los diferentes tipos de interraciones.
       console.log("Opciones:");
       console.log("1. Agregar Producto");
-      console.log("2. Eliminar Producto");
+     console.log("2. Eliminar Producto");
       console.log("3. Listar Productos");
       console.log("4. Salir\n");
     }
