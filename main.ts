@@ -16,7 +16,7 @@ class ConsoleUI {
       console.log(`\n${mensaje}\n`);
     }
   }
-  
+  // HOLA MUNDO 
   // Ejemplo de uso
   ConsoleUI.mostrarInterfaz();
   ConsoleUI.mostrarMensaje("¡Bienvenido a la aplicación de inventario!");
