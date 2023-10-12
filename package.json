@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@types/prompt-sync": "^4.2.1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
