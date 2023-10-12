@@ -6,7 +6,6 @@ export class ConsoleUI {
       console.log("========================================");
       console.log("           Aplicación de Inventario      ");
       console.log("========================================\n");
-      console.log("Opciones:");
       console.log("1. Agregar Producto");
       console.log("2. Eliminar Producto");
       console.log("3. Listar Productos");
