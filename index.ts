@@ -27,6 +27,15 @@ const productosAlmacenados: Producto[] = [];
   const codigoEliminar = parseInt(readlineSync.question("Ingrese el código del producto que desea eliminar: ")) || 0;
 
   Producto.eliminarProductoPorCodigo(productosAlmacenados, codigoEliminar);
+  function ingresarProducto(): Producto {
+  const nombre = readlineSync.question("Ingrese el nombre del producto: ") || "";
+  const codigo = parseInt(readlineSync.question("Ingrese el código del producto: ")) || 0;
+  const precio = parseFloat(readlineSync.question("Ingrese el precio del producto: ")) || 0;
+
+  return new Producto(nombre, codigo, precio);
+}
+
+iniciarAplicacion();
 
   console.log("\nProductos almacenados después de eliminar:");
 
