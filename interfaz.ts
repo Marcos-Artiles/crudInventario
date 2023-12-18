@@ -10,5 +10,4 @@ export class ConsoleUI {
     console.log("2. Eliminar Producto");
     console.log("3. Salir\n");
   }
-
 }
