@@ -5,7 +5,7 @@ import * as readlineSync from 'readline-sync';
 
 function iniciarAplicacion(): void {
 
-  const loginInstance = new Login("Grupo POO", "admin123");
+  const loginInstance = new Login("Grupo POO", "Admin 123");
   loginInstance.realizarLogin();
 
   ConsoleUI.mostrarInterfaz();
@@ -24,7 +24,7 @@ const productosAlmacenados: Producto[] = [];
 
   Producto.mostrarProductos(productosAlmacenados);
 
-  const codigoEliminar = parseInt(readlineSync.question("Ingrese el código del producto que desea eliminar: ")) || 0;
+  const codigoEliminar = parseInt(readlineSync.question("\nIngrese el código del producto que desea eliminar: ")) || 0;
 
   Producto.eliminarProductoPorCodigo(productosAlmacenados, codigoEliminar);
 
